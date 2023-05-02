@@ -8,7 +8,8 @@ body{
    justify-content: space-between;
    align-items: center;
    font-family: "Trebuchet MS", sans-serif;
-   background: url("bgm2.png") no-repeat;
+   background: url("bgm.png") no-repeat;
+   background-position: bottom;
    background-size: cover;
    overflow: hidden;
 }
@@ -21,7 +22,6 @@ header{
    align-items: center;
    justify-content: center;
 }
-
 
 .bottom-section{
    width: 100%;
@@ -71,4 +71,5 @@ input{
 
 .image-container img {
    width: 100%;
+   height: 100%;
 }
