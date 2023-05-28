@@ -29,7 +29,6 @@ header{
    display: flex;
    justify-content: center;
    height: 150px;
-   background-color: green;
 }
 
 .input-container{
