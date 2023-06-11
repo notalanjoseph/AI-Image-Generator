@@ -1,5 +1,5 @@
 
-const API_KEY = "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"
+const API_KEY = "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"
 const submitIcon = document.querySelector("#submit-icon")
 const inputElement = document.querySelector("input")
 const imageSection = document.querySelector('.images-section')
@@ -14,7 +14,7 @@ const getImages = async () => {
       body: JSON.stringify({
          prompt: inputElement.value,
          n: 1,
-         size: "1024x1024"
+         size: "512x512"
       })
    }
    try {
